@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  03map
-//
-//  Created by Yuki Shinohara on 2020/03/20.
-//  Copyright © 2020 Yuki Shinohara. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 
@@ -21,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
+//        let contentView = ContentView().environmentObject(ShareData())
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
